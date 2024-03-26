@@ -1,0 +1,490 @@
+<html>
+    <head>
+        <title>project 21</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <style>
+         @media only screen and (max-width:600px){
+            .fixed{
+display: none;
+            }
+            .sidebaar{  
+               display: none !important;
+            }
+            .content{
+               height: auto;
+            }
+            .grid1{
+               grid-template-rows: auto auto auto auto auto auto !important;
+               grid-template-columns: auto !important;
+            }
+         }
+         html{
+            scroll-behavior: smooth;
+         }
+         .grid{
+            display: grid;
+            width: 100%;
+            height: auto;
+            grid-template-rows: 100%;
+            grid-template-columns: 20% 80%;
+            border: none;
+            gap: 0px;
+            margin: 0px;
+            padding: 0px;
+         }
+         .sidebaar{
+            display: grid;
+            width: 100%;
+            height: 800px;
+            background-color: white;
+            margin: 0px;
+         }
+         .fixed{
+            width: 19%;
+            position: fixed;
+            margin: 0px;
+
+         }
+         .heading1{
+            font-size: 15px;
+            font-family: 'Raleway', sans-serif;
+            color: grey;
+            text-align: center;
+            padding-top: 90px;
+         }
+         .button15{
+            width: 100%;
+            height: 50px;
+            border: none;
+            background-color: white;
+            padding: 8px 16px;
+            font-size: 15px;
+
+         }
+         .button15:hover{
+            background-color: lightgray;
+         }
+         .heading2{
+            font-size: 20px;
+            font-family:'Raleway', sans-serif ;
+            color: grey;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            width: 100%;
+         }
+         .heading2:hover{
+            background-color: lightgray;
+            color: black;
+         }
+
+         .content{
+            display: grid;
+            width: 100%;
+            height: auto;
+            height: 800px;
+            background-color: white;
+            margin: 0px;         }
+         .grid1{
+            display: grid;
+            width: 100%;
+            height: auto;
+            grid-template-rows: auto auto auto;
+            grid-template-columns: 33.3% 33.3% 33.3%;
+            gap: 0px;
+            margin: 0px;
+         }
+         .images{
+            display: grid;
+            width: 100%;
+            height: 400px;
+            opacity: 0.8;
+         }
+         .images:hover{
+            opacity: 1.0;
+         }
+        .grid2{
+            display: grid;
+            width: 100%;
+            height: auto;
+            grid-template-rows: auto;
+            grid-template-columns: auto auto auto auto auto auto;
+            border: none;
+            justify-content: center;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+        .button1{
+          color: black;
+          background-color: #f1f1f1;
+          font-family:'Raleway', sans-serif ;
+          font-size: 15px;
+          padding: 8px 16px;
+          border: none;
+       }
+      .button1:hover{
+          color: white;
+          background-color:black ;
+       }
+       .button1:active{
+          color: white;
+          background-color:black ;
+       }
+       .button2{
+                color:white;
+                background-color: black;
+                font-family:'Raleway', sans-serif ;
+                font-size: 15px;
+                padding: 8px 16px;
+                border: none;
+            }
+            .button2:hover{
+                color: black;
+                background-color:lightgray ;
+            }
+            .button2:active{
+                color: black;
+                background-color:lightgray;
+            }
+            .box5{
+               background-color: #616161;
+               padding-left: 200px;
+               padding-right: 200px;
+               color: white;
+            }
+            #box6{
+               text-transform: capitalize;
+            }
+            #box6::first-letter{
+               font-size: 40px;
+            }
+            #box6::first-line{
+               color: black;
+            }
+         .rectangle{
+            width: 100%;
+            height: 30px;
+            background-color: white;
+            border: none;
+         }
+         .rectangle1{
+            width: 95%;
+            height: 30px;
+            border: none;
+            background-color: gray;
+         }
+         .rectangle2{
+            width: 85%;
+            height: 30px;
+            border: none;
+            background-color: gray;
+         }
+         .rectangle3{
+            width: 75%;
+            height: 30px;
+            border: none;
+            background-color: gray;
+         }
+         .button1{
+            padding: 10px 20px;
+            background-color: white;
+         }
+         .button1:hover{
+            
+            background-color: gray;
+         }
+         .grid3{
+    display: grid;
+    width: 100%;
+    height:auto;
+    grid-template-rows: 100%;
+    grid-template-columns: 48% 48%;
+    border:none;
+    background-color: #616161;
+    gap: 10px;
+    
+   }
+   .part-1{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: auto;
+    border: 1px lightgray;
+    gap:0px;
+    background-color: #fff;
+    opacity: 0.7;
+   }
+   .part-1:hover{
+    opacity: 1.0;
+   }
+   .part-2{
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-columns: auto;
+    border: 1px lightgray;
+    gap: 0px;
+    background-color: #fff;
+     opacity: 0.7;
+   }
+   .part-2:hover{
+    opacity: 1.0;
+   }
+   .one-1{
+      color: black;
+     border-bottom:0.5px solid gray;
+      text-align: center;
+     justify-content: center;
+     gap: 0px;
+   }
+   .button3{
+      padding: 15px 25px;
+      color: black;
+      background-color: #f1f1f1;
+      border: none;
+   }
+   .button3:hover{
+      background-color: lightgray;
+   }
+   .box7{
+               background-color: #f1f1f1;
+               padding-left: 200px;
+               padding-right: 200px;
+               color: white;
+            }
+            .form5{
+            width: 100%;
+           height: 40px;
+           border-radius: 5px;
+           border: none;
+         }
+         .button5{
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            background-color: black;
+            border: none;
+         }
+         .button5:hover{
+            background-color: lightgray;
+            color: black;
+         }
+         .box8{
+            display: grid;
+            background-color: #9e9e9e;
+            width: 100%;
+            height: 220px;
+            grid-template-rows: 90%;
+            grid-template-columns: 30% 30% 30%;
+            gap:10px;
+            padding-top: 30px;
+                  
+         }
+         .flex{
+        display: flex;
+        flex-direction: row;
+        border:none;
+        width:100%;
+        height: 70px;
+        gap: 0px;
+        transition: 2s;
+    }
+    .flex:hover{
+        background-color:black;
+        color: white;
+             
+         }
+         .box10{
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: black;
+            transition: 3s;
+         }
+         .box10:hover{
+            background-color: lightgray;
+            color: black;
+         }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+           <div class="sidebaar">
+             <div class="fixed">
+                <div class="heading1"><h1>Some <br>Name</h1></div> <br><br>
+                <div><a href="#portfolios"><button class="button15">Portfolio</button></a></div>
+                <div><a href="#abouts"><button class="button15">About Me</button></a></div>
+                <div><a href="#contacts"><button class="button15">Contact</button></a></div>             
+             </div>
+           </div>
+           <div class="content">
+              <div class="grid1" id="portfolios">
+                   <div><img class="images" src="images\project21\1.jpg" alt="images\project21\1.jpg"></div>
+                   <div><img class="images" src="images\project21\2.jpg" alt="images\project21\2.jpg"></div>
+                   <div><img class="images" src="images\project21\3.jpg" alt="images\project21\3.jpg"></div>
+                   <div><img class="images" src="images\project21\4.jpg" alt="images\project21\4.jpg"></div>
+                   <div><img class="images" src="images\project21\5.jpg" alt="images\project21\5.jpg"></div>
+                   <div><img class="images" src="images\project21\6.jpg" alt="images\project21\6.jpg"></div>
+                   <div><img class="images" src="images\project21\7.jpg" alt="images\project21\7.jpg"></div>
+                   <div><img class="images" src="images\project21\8.jpg" alt="images\project21\8.jpg"></div>
+                   <div><img class="images" src="images\project21\9.jpg" alt="images\project21\9.jpg"></div>
+              </div>
+              <div class="grid2">
+                <div><button class="button1"> << </button></div>
+                <div><button class="button2">1</button></div>
+                <div><button class="button1">2</button></div>
+                <div><button class="button1">3</button></div>
+                <div><button class="button1">4</button></div>
+                <div><button class="button1"> >> </button></div>
+              </div>
+              <div style="background-color: #616161;">
+                  <h1 id="abouts" style="color: white;font-size: 20px;padding-top: 20px;padding-bottom: 20px;font-family:'Raleway', sans-serif ;text-align: center;">About Me</h1>
+              </div>  
+               <div class="box5" style="background-color: #616161;padding-left: 200px;">
+                  <img src="images\project21\10.jpg" alt="images\project21\10.jpg" style="width: 620px;height: 400px;">
+               </div>
+               <div class="box5">
+                  <h1 style="color: white;font-size: 20px;font-weight: 400;font-family:'Raleway', sans-serif ;padding-top: 20px;">My Name</h1>
+               </div>
+               <div class="box5" id="box6">
+                  <p style="font-size: 15px;font-family:'Raleway', sans-serif ;line-height: 1.5;">Some text about me. I love taking photos of PEOPLE. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+               </div>
+               <div class="box5">
+                 <p style="font-size: 15px;font-family:'Raleway', sans-serif ;line-height: 1.5;"><b>mail:</b> example@example.com</p>
+               </div>
+               <div  class="box5" >
+                  <p style="font-size: 15px;font-family:'Raleway', sans-serif ;line-height: 1.5;border-bottom: 2px solid white;padding-bottom: 10px;"><b>tel:</b> 0306-760549</p>
+               </div>              
+               <div  class="box5">
+                  <h1 style="color: white;font-size: 25px;font-weight: 500;font-family:'Raleway', sans-serif ;">Technical Skills</h1>
+               </div>
+               <div class="box5">
+                  <h2 style="color: white;font-size: 15px;font-weight: 400;font-family:'Raleway', sans-serif ;letter-spacing: 4px;">Photography</h2>
+               </div>
+               <div class="box5">
+                  <div class="rectangle">
+                     <div class="rectangle1"><p style="text-align: center;padding-top: 10px;" >95%</p></div>
+                  </div>
+               </div>
+               <div class="box5">
+                  <h2  style="color: white;font-size: 15px;font-weight: 400;font-family:'Raleway', sans-serif ;letter-spacing: 4px;">Web Design</h2>
+               </div>
+               <div class="box5">
+                  <div class="rectangle">
+                     <div class="rectangle2"><p style="text-align: center;padding-top: 10px;" >85%</p></div>
+                  </div>
+               </div>
+               <div class="box5">
+                  <h2  style="color: white;font-size: 15px;font-weight: 400;font-family:'Raleway', sans-serif ;letter-spacing: 4px;">Photoshop</h2>
+               </div>
+               <div class="box5">
+                  <div class="rectangle">
+                     <div class="rectangle3"><p style="text-align: center;padding-top: 10px;" >75%</p></div>
+                  </div>
+               </div>
+               <div class="box5" style="padding-top: 30px; ">
+                  <button class="button1">Download Resume</button>
+               </div>
+               <div class="box5" style="border-bottom: 1px solid white;padding-left: 200px;padding-right: 200px;padding-top: 10px;">
+                   
+               </div>
+               <div class="box5">
+                  <h2 style="font-size: 20px;font-weight: 300;font-family: Raleway, sans-serif;">How much I charge</h2>
+               </div>
+               <div  class="box5">
+                   <div class="grid3">
+                     <div class="part-1">
+                        <div class="one-1" style="background-color: black; color: white;" ><h1 >Basic</h1></div>
+                        <div class="one-1"><p >Web Design</p></div>
+                        <div class="one-1"><p>Photography</p> </div>
+                        <div class="one-1"><p >1GB Storage</p></div>
+                        <div class="one-1"><p >Mail Support</p></div>
+                        <div class="one-1"> <span><h1>$10</h1><sub>Per Month</sub></span></div>
+                        <div  class="one-1"  style="padding-top: 20px;padding-bottom: 20px;" ><button class="button3">Sign up</button></div>
+                    </div>
+                    <div class="part-2">
+                        <div class="one-1" style="background-color: black; color: white;"><h1 >Pro</h1></div>
+                        <div class="one-1" ><p >Web Design</p></div>
+                        <div class="one-1" ><p >Photography</p></div> 
+                        <div class="one-1" ><p >1GB Storage</p></div>
+                        <div class="one-1" ><p >Endless Support</p></div>
+                        <div class="one-1" ><span><h1>$25</h1><sub>Per Month</sub></span></div>
+                        <div  class="one-1" style="padding-top: 20px;padding-bottom: 20px;"> <button class="button3">Sign up</button></div>
+                    </div>
+                   </div>
+                   <br><br><br>
+               </div>
+               <div class="box7">
+                 <div id="contacts"><h1 style="color: black;font-size: 20px;padding-top: 20px;padding-bottom: 20px;font-family:'Raleway', sans-serif ;text-align: center;">Contact Me</h1></div>
+               </div>
+               <div class="box7">
+                   <div><p style="font-size: 15px;color: black;font-family:'Raleway', sans-serif ;line-height: 1.5;">Do you want me to photograph you? Fill out the form and fill me in with the details :) I love meeting new people!</p></div>
+               </div>
+               <div class="box7">
+                  <form>
+                     <label style="font-family:'Raleway', sans-serif ;color: black;">Name</label><br>
+                     <input class="form5" type="text" name="text" value="Name"><br><br>
+                     <label  style="font-family:'Raleway', sans-serif ;color: black;">E-mail</label><br>
+                     <input class="form5" type="text" name="text" value="E-mail"><br><br>
+                     <label  style="font-family:'Raleway', sans-serif ;color: black;">Message</label><br>
+                     <input class="form5" type="text" name="text" value=""><br><br>
+                     <button class="button5">Send Message</button>
+                 </form>
+                 <br><br>
+
+               </div>
+               <div class="box8">
+                  <div>
+                     <div><h1 style="font-size: 24px;font-weight: 400;font-family:Raleway, sans-serif ;color: white;padding-left: 15px;">INFO</h1></div>
+                     <div><p style="font-size: 15px;font-weight: 100;font-family:Raleway, sans-serif ;color: white;padding-left: 15px;">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p></div>
+                     
+                 </div>
+                 <div>
+                      <div><h1 style="font-size: 24px;font-weight: 400;font-family:Raleway, sans-serif ;color: white;">BLOG POSTS</h1></div>
+                      <div class="flex" style="border-bottom: 1px solid white;">
+                         <div class="flex-image"><img src="images\project19\10.jpg" alt="10.jpg" style="width: 50px;height: 50px;padding: 10px;"></div>
+                         <div style="padding-left: 10px;padding-top: 10px;">Lorem<br> Sed mattis nunc</div>
+                        
+                      </div>
+                      <div class="flex">
+                         <div class="flex-image"><img src="images\project19\11.jpg" alt="11.jpg" style="width: 50px;height: 50px;padding: 10px;" ></div>
+                         <div style="padding-left: 10px;padding-top: 10px">Ipsum<br>Praes tinci sed </div>
+                      </div>
+                 </div>
+                 <div>
+                     <div><h1 style="font-size: 24px;font-weight: 400;font-family:Raleway, sans-serif ;color: white;">POPULAR TAGS</h1></div>
+                     <div>
+                         <button style="background-color: black;color: white;border: none;">Travel</button>
+                         <button>New York</button>
+                         <button>London</button>
+                         <button>IKEA</button>
+                         <br><br>
+                         <button>DIY</button>
+                         <button>Ideas</button>
+                         <button>Baby</button>
+                         <button>Family</button>
+                         <button>News</button>
+                         <br><br>
+                         <button>Clothing</button>
+                         <button>Sports</button>
+                         <button>Games</button>
+                     </div>
+                 </div>
+               </div>
+                <div class="box10">
+                    <span style="text-align: center;"> <p style="color: white;font-size: 30px;font-style: italic;"> Poweres by Basit.com</p></span>
+                 </div>
+
+
+
+
+
+           </div>
+        </div>
+    </body>
+</html>
